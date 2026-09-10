@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Richenel D. OUSSOUKPEVI | Élève Ingénieur en Génie Mathématique & Modélisation · Data Science & AI</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Portfolio de Richenel D. OUSSOUKPEVI — Élève ingénieur en Génie Mathématique et Modélisation (ENSGMM — UNSTIM, Abomey, Bénin). Passionné par la Data Science, le Machine Learning et l'AI Engineering. Découvrez mes projets, compétences et réalisations." />
+  <meta name="keywords"
+    content="Richenel D. OUSSOUKPEVI, Data Scientist, Data Science, Machine Learning, Artificial Intelligence, AI Engineer, Python, Mathematical Modeling, Génie Mathématique et Modélisation, ENSGMM, UNSTIM, Abomey, FastAPI, Deep Learning" />
+  <meta name="author" content="Richenel D. OUSSOUKPEVI" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- OpenGraph / Réseaux Sociaux -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title"
+    content="Richenel D. OUSSOUKPEVI | Élève Ingénieur en Génie Mathématique & Modélisation · Data & AI" />
+  <meta property="og:description"
+    content="Passionné par la Data Science et l'Intelligence Artificielle, je transforme les données et les modèles mathématiques en solutions intelligentes." />
+  <meta property="og:locale" content="fr_FR" />
+
+  <!-- Polices Modernes Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Feuille de Style Principale -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Données Structurées JSON-LD pour les Moteurs de Recherche -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Richenel D. OUSSOUKPEVI",
+    "jobTitle": "Élève ingénieur en Génie Mathématique et Modélisation",
+    "alumniOf": "ENSGMM — UNSTIM, Abomey, Bénin",
+    "knowsAbout": [
+      "Data Science",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Mathematical Modeling",
+      "Python",
+      "FastAPI"
+    ],
+    "description": "Élève ingénieur en Génie Mathématique et Modélisation, passionné par l'Intelligence Artificielle, la Data Science et la modélisation numérique."
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ========================================================================
+       1. NAVIGATION FIXE (HEADER)
+       ======================================================================== -->
+  <header class="header" role="banner">
+    <div class="container header-container">
+      <a href="#accueil" class="logo" aria-label="Accueil Richenel D. OUSSOUKPEVI">
+        <div class="logo-badge">R</div>
+        <div class="logo-text">
+          <span class="logo-name">Richenel D. OUSSOUKPEVI</span>
+          <span class="logo-role">GMM · DATA SCIENCE & AI</span>
+        </div>
+      </a>
+
+      <!-- Menu de navigation principal -->
+      <nav aria-label="Navigation principale">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+          <li><a href="#a-propos" class="nav-link">À propos</a></li>
+          <li><a href="#cursus" class="nav-link">Cursus</a></li>
+          <li><a href="#projets" class="nav-link">Projets</a></li>
+          <li><a href="#competences" class="nav-link">Compétences</a></li>
+          <li><a href="#galerie" class="nav-link">Galerie</a></li>
+          <li><a href="#parcours-ia" class="nav-link">Parcours IA</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Boutons d'Action (Thème & Menu Mobile) -->
+      <div class="header-actions">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Changer de thème (Sombre / Clair)"
+          title="Basculer Thème Sombre / Clair">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <button class="burger-btn" id="burger-btn" aria-label="Ouvrir le menu mobile">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       2. HERO SECTION (PAGE D'ACCUEIL)
+       ======================================================================== -->
+  <section id="accueil" class="hero" aria-label="Section d'accueil">
+    <canvas id="hero-canvas"></canvas>
+
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-greeting-box">
+            <span class="wave-icon">👋</span>
+            <span class="hero-greeting-text">Bonjour, je suis</span>
+          </div>
+
+          <h1 class="hero-name">
+            Richenel D.<br />
+            <span class="gradient-text">OUSSOUKPEVI</span>
+          </h1>
+
+          <h2 class="hero-title">
+            Élève ingénieur en Génie Mathématique & Modélisation
+          </h2>
+
+          <p class="hero-tagline">
+            Passionné par la Data Science et l'Intelligence Artificielle, je transforme les données et les modèles
+            mathématiques en solutions intelligentes.
+          </p>
+
+          <div>
+            <div class="hero-meta-badge">
+              ⚡ AI × DATA × MATHEMATICS × ENGINEERING
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projets" class="btn btn-primary">
+              <span>Voir mes projets</span> <span>→</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Me contacter</span>
+            </a>
+          </div>
+
+          <!-- Réseaux Sociaux Rapides -->
+          <div class="hero-socials">
+            <a href="https://github.com/Richenel-OUSSOUKPEVI" target="_blank" rel="noopener noreferrer"
+              class="social-pill" title="Profil GitHub">
+              <span>💻</span> <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/richenel-oussoukpevi-80ba372a1/" target="_blank"
+              rel="noopener noreferrer" class="social-pill" title="Profil LinkedIn">
+              <span>🔗</span> <span>LinkedIn</span>
+            </a>
+            <a href="#contact" class="richenelspacecode@gmail.com" data-email="[Ajouter email]" title="Copier l'email">
+              <span>✉️</span> <span>mon email</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Colonne Visuelle avec la Photo Officielle -->
+        <div class="hero-visual-col">
+          <div class="hero-photo-wrapper">
+            <div class="hero-photo-frame">
+              <img src="assets/images/richenel-oussoukpevi.jpg"
+                alt="Portrait de Richenel D. OUSSOUKPEVI — Élève ingénieur en Génie Mathématique et Modélisation"
+                class="hero-photo-img" loading="eager" />
+              <div class="hero-photo-overlay"></div>
+            </div>
+
+            <!-- Badges Flottants Technologiques & Académiques -->
+            <div class="hero-floating-badge top-badge">
+              <span>📐</span> <span>ENSGMM — UNSTIM</span>
+            </div>
+            <div class="hero-floating-badge bottom-badge">
+              <span>⚡</span> <span>Data Science & AI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       3. SECTION "À PROPOS DE MOI"
+       ======================================================================== -->
+  <section id="a-propos" class="section alt-bg" aria-label="À propos de moi">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Qui suis-je ?</span>
+        <h2 class="section-title">Construire des solutions à l'intersection des <span class="gradient-text">Maths et de
+            l'IA</span></h2>
+        <p class="section-subtitle">Un profil d'élève ingénieur rigoureux, curieux et résolument orienté projets
+          concrets.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-col">
+          <p>
+            Je suis actuellement élève ingénieur en <strong>Génie Mathématique et Modélisation (GMM)</strong>. Ma
+            formation me permet de développer une base analytique solide et exigeante en mathématiques appliquées,
+            modélisation stochastique, programmation, statistiques, optimisation, analyse numérique et informatique
+            scientifique.
+          </p>
+          <p>
+            En parallèle de mon cursus universitaire, je développe activement mes compétences en <strong>Data
+              Science</strong> et en <strong>Intelligence Artificielle</strong> à travers des formations intensives, des
+            challenges compétitifs, des projets personnels et des expérimentations pratiques.
+          </p>
+          <p>
+            Je suis particulièrement stimulé par la manière dont les mathématiques fondamentales, l'analyse des données
+            et le génie logiciel se rejoignent pour résoudre des défis complexes du monde réel.
+          </p>
+
+          <div class="philosophy-card">
+            <div class="philosophy-quote">
+              <span>💡</span> Notre devise : « Apprendre en construisant. »
+            </div>
+            <p class="philosophy-desc">
+              Chaque concept théorique prend toute sa valeur lorsqu'il est incarné dans un code propre, testé, déployé
+              et mesurable.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-stats-grid">
+          <div class="about-card">
+            <span class="about-card-icon">📐</span>
+            <h4>Socle Mathématique & Modélisation</h4>
+            <p>Analyse numérique, optimisation, statistiques avancées et calcul scientifique appliqués aux phénomènes
+              complexes.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-card-icon">🧠</span>
+            <h4>Data Science & Machine Learning</h4>
+            <p>Exploration de données, ingénierie de caractéristiques (feature engineering) et modélisation prédictive
+              supervisée/non-supervisée.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-card-icon">🚀</span>
+            <h4>Vers l'AI Engineering</h4>
+            <p>Développement de backends asynchrones avec FastAPI, consommation d'APIs LLM et intégration de modèles
+              dans des applications réelles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       4. SECTION "MON CURSUS" (TIMELINE)
+       ======================================================================== -->
+  <section id="cursus" class="section" aria-label="Mon cursus académique">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Parcours Académique</span>
+        <h2 class="section-title">Mon <span class="gradient-text">Cursus & Formation</span></h2>
+        <p class="section-subtitle">Une trajectoire progressive de l'ingénierie mathématique vers la science des données
+          et l'IA.</p>
+      </div>
+
+      <div class="timeline-container" id="cursus-container">
+        <!-- Rendu dynamique depuis data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       5. SECTION "MES PROJETS" (4 PROJETS PHARES)
+       ======================================================================== -->
+  <section id="projets" class="section alt-bg" aria-label="Projets sélectionnés">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Travaux Phares</span>
+        <h2 class="section-title">Projets <span class="gradient-text">Sélectionnés</span></h2>
+        <p class="section-subtitle">Quatre projets concrets illustrant mes compétences en AI Engineering, Machine
+          Learning, BioAI et résolution sous contraintes.</p>
+      </div>
+
+      <div class="projects-grid" id="projects-container">
+        <!-- Rendu dynamique depuis data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       6. SECTION "COMPÉTENCES TECHNIQUES"
+       ======================================================================== -->
+  <section id="competences" class="section" aria-label="Compétences techniques">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Boîte à Outils</span>
+        <h2 class="section-title">Compétences <span class="gradient-text">Techniques</span></h2>
+        <p class="section-subtitle">Compétences réelles et vérifiées, structurées par domaines d'application (sans
+          notations subjectives).</p>
+      </div>
+
+      <div class="skills-container" id="skills-container">
+        <!-- Rendu dynamique depuis data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       7. SECTION "GALERIE" (EVENTS, CHALLENGES, FORMATIONS)
+       ======================================================================== -->
+  <section id="galerie" class="section alt-bg" aria-label="Galerie d'événements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Engagement & Écosystème</span>
+        <h2 class="section-title">Galerie & <span class="gradient-text">Moments Clés</span></h2>
+        <p class="section-subtitle">Challenges, formations, ateliers et participation active dans l'écosystème
+          technologique.</p>
+      </div>
+
+      <!-- Filtres Interactifs -->
+      <div class="gallery-filters" role="group" aria-label="Filtrer la galerie">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="Challenges">Challenges</button>
+        <button class="filter-btn" data-filter="Formations">Formations</button>
+        <button class="filter-btn" data-filter="AI & Data">AI & Data</button>
+        <button class="filter-btn" data-filter="Events">Events</button>
+      </div>
+
+      <!-- Grille des Événements -->
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- Rendu dynamique depuis data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       8. SECTION "MON PARCOURS DANS L'IA" (MY AI JOURNEY)
+       ======================================================================== -->
+  <section id="parcours-ia" class="section" aria-label="Mon parcours dans l'IA">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Progression Continue</span>
+        <h2 class="section-title">Mon Parcours <span class="gradient-text">dans l'IA</span></h2>
+        <p class="section-subtitle">Une progression méthodique, cohérente et orientée résultats au fil de mon
+          apprentissage.</p>
+      </div>
+
+      <div class="journey-pipeline" id="journey-container">
+        <!-- Rendu dynamique depuis data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       9. SECTION GITHUB / PORTFOLIO CODE
+       ======================================================================== -->
+  <section id="github-showcase" class="section alt-bg" aria-label="Code et Dépôts GitHub">
+    <div class="container">
+      <div class="github-banner">
+        <div class="github-header-row">
+          <div class="github-intro">
+            <span class="section-tag" style="margin-bottom: 8px;">Open Source & Expérimentations</span>
+            <h3>Code, projets & expériences</h3>
+            <p>
+              Je documente progressivement mes projets, mes expérimentations et mon apprentissage à travers mes dépôts
+              GitHub.
+            </p>
+          </div>
+          <div>
+            <a href="[Ajouter lien GitHub]" target="_blank" rel="noopener noreferrer" class="btn btn-primary"
+              title="Voir le profil GitHub">
+              <span>Voir mon GitHub</span> <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="repos-grid" id="repos-container">
+          <!-- Rendu dynamique depuis data.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       10. SECTION CONTACT ("TRAVAILLONS ENSEMBLE")
+       ======================================================================== -->
+  <section id="contact" class="section" aria-label="Me contacter">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact & Opportunités</span>
+        <h2 class="section-title">Travaillons <span class="gradient-text">Ensemble</span></h2>
+        <p class="section-subtitle">À la recherche d'un élève ingénieur dynamique pour un stage, une opportunité junior
+          ou une collaboration ? Échangeons !</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- Colonne Informations et Opportunités -->
+        <div class="contact-info-col">
+          <p>
+            Actuellement en formation d'ingénieur en Génie Mathématique et Modélisation, je suis ouvert et à l'écoute
+            d'opportunités me permettant d'apporter ma rigueur mathématique et ma passion pour la Data et l'IA :
+          </p>
+
+          <ul class="opportunities-list">
+            <li>Stages en Data Science & Machine Learning</li>
+            <li>Postes junior en AI Engineering / Modélisation</li>
+            <li>Projets de recherche appliquée et collaborations Data/IA</li>
+            <li>Challenges scientifiques, hackathons et projets innovants</li>
+          </ul>
+
+          <div class="contact-cards-stack">
+            <!-- Email -->
+            <div class="contact-channel-card">
+              <div class="channel-details">
+                <span class="channel-icon">✉️</span>
+                <div>
+                  <div class="channel-label">EMAIL DIRECT</div>
+                  <div class="richenelspacecode@gmail.com">Adress email</div>
+                </div>
+              </div>
+              <button class="copy-btn copy-email-btn" data-email="richenelspacecode@gmail.com"
+                title="Copier l'adresse email">
+                Copier
+              </button>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-channel-card">
+              <div class="channel-details">
+                <span class="channel-icon">💻</span>
+                <div>
+                  <div class="channel-label">GITHUB</div>
+                  <div class="channel-value">Mon profil</div>
+                </div>
+              </div>
+              <a href="https://github.com/Richenel-OUSSOUKPEVI" target="_blank" rel="noopener noreferrer"
+                class="copy-btn" title="Consulter GitHub">
+                Visiter ↗
+              </a>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-channel-card">
+              <div class="channel-details">
+                <span class="channel-icon">🔗</span>
+                <div>
+                  <div class="channel-label">LINKEDIN</div>
+                  <div class="channel-value">Mon profil</div>
+                </div>
+              </div>
+              <a href="https://www.linkedin.com/in/richenel-oussoukpevi-80ba372a1/" target="_blank"
+                rel="noopener noreferrer" class="copy-btn" title="Consulter LinkedIn">
+                Connecter ↗
+              </a>
+            </div>
+
+            <!-- Localisation -->
+            <div class="contact-channel-card">
+              <div class="channel-details">
+                <span class="channel-icon">📍</span>
+                <div>
+                  <div class="channel-label">LOCALISATION & MOBILITÉ</div>
+                  <div class="channel-value">ENSGMM — UNSTIM, Abomey / Cotonou, Bénin (Mobilité / Remote)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulaire de Contact -->
+        <div class="contact-form-card">
+          <h3
+            style="font-family: var(--font-display); font-size: 1.35rem; color: var(--text-primary); margin-bottom: 20px;">
+            Envoyer un message direct
+          </h3>
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="form-name" class="form-label">Nom complet *</label>
+              <input type="text" id="form-name" class="form-input" placeholder="Ex. Jean Dupont" required />
+            </div>
+
+            <div class="form-group">
+              <label for="form-email" class="form-label">Adresse Email *</label>
+              <input type="email" id="form-email" class="form-input" placeholder="Ex. contact@entreprise.com"
+                required />
+            </div>
+
+            <div class="form-group">
+              <label for="form-subject" class="form-label">Objet de la prise de contact</label>
+              <input type="text" id="form-subject" class="form-input"
+                placeholder="Ex. Proposition de stage / Collaboration Data" />
+            </div>
+
+            <div class="form-group">
+              <label for="form-message" class="form-label">Votre message *</label>
+              <textarea id="form-message" class="form-textarea"
+                placeholder="Présentez brièvement votre projet ou votre opportunité..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Envoyer le message</span> <span>✉️</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       11. MODALE TECHNIQUE DE DÉTAILS PROJET
+       ======================================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Fermer la modale">✕</button>
+      <div id="modal-body-content">
+        <!-- Contenu injecté dynamiquement lors du clic -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       12. FOOTER
+       ======================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="logo">
+          <div class="logo-badge">R</div>
+          <div class="logo-text">
+            <span class="logo-name">Richenel D. OUSSOUKPEVI</span>
+            <span class="logo-role">AI × DATA × MATHEMATICS × ENGINEERING</span>
+          </div>
+        </div>
+
+        <nav aria-label="Liens rapides du footer">
+          <ul class="nav-menu" style="display: flex; gap: 20px; list-style: none;">
+            <li><a href="#accueil" class="nav-link">Accueil</a></li>
+            <li><a href="#a-propos" class="nav-link">À propos</a></li>
+            <li><a href="#projets" class="nav-link">Projets</a></li>
+            <li><a href="#competences" class="nav-link">Compétences</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Richenel D. OUSSOUKPEVI. Tous droits réservés.
+        </div>
+        <div>
+          Conçu avec passion pour la Data Science et l'Intelligence Artificielle.
+        </div>
+        <div>
+          <a href="#accueil" class="back-to-top-btn" id="back-to-top-btn">
+            <span>Haut de page</span> <span>↑</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts JavaScript (Données puis Animation puis Application) -->
+  <script src="js/data.js"></script>
+  <script src="js/canvas-bg.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
